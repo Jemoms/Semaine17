@@ -1,0 +1,15 @@
+<h1>Affichage d'un article du Blog</h1>
+
+<h3>
+  <%= @article.title %>
+</h3>
+
+<div>
+  <img src="<%=@article.thumb%>"/>
+</div>
+
+<p>
+  <%= @article.content %>
+</p>
+
+<a href="/articles">Revenir à la liste des articles</a>
